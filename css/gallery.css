@@ -1,0 +1,264 @@
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:300,400,700';
+
+body {
+	background-color: rgb(22,22,22);
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+	transition: background-color .5s;
+}
+
+body, a{
+	margin: 0;
+	color: white;
+}
+.clear {
+	clear: both;
+}
+
+#myName{
+	font-size: 30px;
+	font-weight: 500;
+}
+
+#galleryTitle{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 50px;
+	margin-left: 5%;
+	max-width: 90%;
+
+}
+
+/* CONTAINER */
+section {
+	position: relative;
+	top: 5vh;
+}
+
+/* COLUMNS */
+section p {
+	width: 80vw;
+	float: left;
+	padding: 2%;
+	box-sizing: border-box;
+}
+
+/* GRID */
+section #work {
+	position: absolute;
+	width: 80vw;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+section .items {
+	margin-left: 2%;
+	margin-bottom: 1%;
+	width: 90vw;
+	/*height: 100vw;*/
+	float: left;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+
+	/*modal box style*/
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 500px) and (min-device-width: 500px) {
+/*	body{
+		background-color: blue;
+	}*/
+	section .items {
+		width: calc(90vw / 2);
+		/*height: calc(90vw / 2);*/
+	}
+}
+
+/* tablet */
+@media screen and (min-width: 780px) and (min-device-width: 500px){
+/*	body{
+		background-color: orange;
+	}*/
+	section .items {
+		width: calc(90vw / 2);
+		/*height: calc(90vw / 3);*/
+	}
+	section p {
+		width: calc(90vw / 2);
+	}
+	header #desktop {
+		display:block;
+	}
+	header #mobile {
+		display: none;
+	}
+}
+
+/* desktop */
+@media screen and (min-width: 1050px) {
+/*	body{
+		background-color: crimson;
+	}*/
+	section .items {
+		width: calc(90vw / 3);
+		/*height: calc(90vw / 4);*/
+	}
+}
+
+/* FOR MOBILE DEVICES*/
+/* Source for different devices http://cssmediaqueries.com/target/ */
+@media screen and (max-device-width: 500px) and (orientation: portrait){
+/*	body{
+		background-color: yellow;
+		color: black;
+		font-size: 2.5em;
+	}*/
+}
+
+/* seems to be a difference between Android and iOS, device-width and device-height changes with orientation*/
+@media screen and (max-device-width: 500px) and (orientation: landscape), screen and (max-device-height: 500px) and (orientation: landscape){
+/*	body{
+		background-color: limegreen;
+	}*/
+	section .items {
+		width: calc(90vw / 2);
+		/*height: calc(90vw / 2);*/
+	}
+}
+
+/*Everything at this point is for sidebar navigation menu!*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*------------------------Mono Box for images!!--------------------------*/
+
+/*#myImg {*/
+	/*transition: 0.3s;*/
+/*}*/
+
+#section .items:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 900px;
+}
+
+/* Caption of Modal Image */
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+	from {-webkit-transform:scale(0)}
+	to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+	from {transform:scale(0)}
+	to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+	.modal-content {
+		width: 100%;
+	}
+}
+/*-----------------------------------------------------------------------*/
