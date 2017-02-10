@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+<!-- Everything here is for Sidebar navigation menu! -->
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="install.html">Long Island Children's Museum</a>
+    <a href="southkorea.html">South Korea Project</a>
+    <a href="#">Other</a>
+</div>
+
+<div id="main">
+    <div id="myName">M. Dylan Negri</div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Search</span>
+</div>
+
+<div id="galleryTitle"> This was a collaboration project that was created in South Korea with this awesome dood, YeongGwang Ra.<br>
+Despite the language barrier between us, we were able to communicate an idea through hand gestures and motions.   </div>
+
+<!-- /////////////////////////////////////////////// -->
+
+<!-- Everything here is for a mono box when clicking on an image-->
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="images">
+    <!--<div id="caption"></div>-->
+</div>
+
+<!-- ////////////////////////////////////////////////////////// -->
+<section>
+    <img id="myImg" class="items" src="images/outside/cycle/tc01.jpg" onclick="clicking(0)">
+    <img id="myImg" class="items" src="images/outside/cycle/tc02.jpg" onclick="clicking(1)">
+    <img id="myImg" class="items" src="images/outside/cycle/tc03.jpg" onclick="clicking(2)">
+    <img id="myImg" class="items" src="images/outside/cycle/tc04.jpg" onclick="clicking(3)">
+    <img id="myImg" class="items" src="images/outside/cycle/tc05.jpg" onclick="clicking(4)">
+    <img id="myImg" class="items" src="images/outside/cycle/tc06.jpg" onclick="clicking(5)">
+    <img id="myImg" class="items" src="images/outside/cycle/tc07.jpg" onclick="clicking(6)">
+    <img id="myImg" class="items" src="images/outside/cycle/tc08.jpg" onclick="clicking(7)">
+    <img id="myImg" class="items" src="images/outside/cycle/tc09.jpg" onclick="clicking(8)">
+    <!--<img id="myImg" class="items" src="images/outside/cycle/tc10.jpg" onclick="clicking(9)">-->
+
+</section>
+
+<div class="clear"></div>
+
+<div id="galleryTitle">I refer to this project as "Signs." As a foreigner in a counter where I could speak or
+    even recognize the alphabet to read the language, I felt confused more often the not. However,
+    I was also mesmerized by the culture. <br>
+    This piece was meant to abstractly articulate that experience to the locals by drawing inspiration
+    from the form of the Korean alphabet, however the words do not make sense and the form is embellished on.
+</div>
+
+<section>
+    <img id="myImg" class="items" src="images/sculpture/signs/signs01.jpg" onclick="clicking(0)">
+    <img id="myImg" class="items" src="images/sculpture/signs/signs02.jpg" onclick="clicking(0)">
+    <img id="myImg" class="items" src="images/sculpture/signs/signs03.jpg" onclick="clicking(0)">
+
+</section>
+
+<div class="clear"></div>
+
+<footer></footer>
+
+<script src="./js/sidebar.js"></script>
+
+</body>
+</html>

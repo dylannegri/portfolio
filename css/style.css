@@ -169,8 +169,8 @@ section .items {
 		background-color: orange;
 	}*/
 	section .items {
-		width: calc(80vw / 4);
-		height: calc(80vw / 4);
+		width: calc(80vw / 3);
+		height: calc(80vw / 3);
 	}
 /*	section .cv {
 		width: calc(80vw / 4);

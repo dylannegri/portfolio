@@ -67,6 +67,13 @@ section .items {
 	cursor: pointer;
 }
 
+footer{
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+	background: rgb(0,0,0);
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 500px) and (min-device-width: 500px) {
 /*	body{
