@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ba1cc48-fa3d-4d0d-be6c-9892e1ef058e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sleep_project/s01.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sleep_project/s02.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sleep_project/s03.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sleep_project/s04.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sleep_project/s05.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sleep_project/s06.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install.html" afterPath="$PROJECT_DIR$/install.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="install.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/install.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="1201">
+              <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#962#969#0" expanded="true" />
@@ -66,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1074">
-              <caret line="54" column="56" lean-forward="true" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+            <state relative-caret-position="381">
+              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -117,8 +110,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/gallery.css" />
         <option value="$PROJECT_DIR$/southkorea.html" />
-        <option value="$PROJECT_DIR$/install.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/install.html" />
       </list>
     </option>
   </component>
@@ -203,7 +196,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sleepproject" />
+              <option name="myItemId" value="cs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,12 +302,12 @@
       <updated>1485454587022</updated>
       <workItem from="1485454588346" duration="7205000" />
       <workItem from="1485523402081" duration="1343000" />
-      <workItem from="1486751244344" duration="6046000" />
+      <workItem from="1486751244344" duration="6162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14594000" />
+    <option name="totallyTimeSpent" value="14710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,22 +483,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/install.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="1201">
+          <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#962#969#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1074">
-          <caret line="54" column="56" lean-forward="true" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
