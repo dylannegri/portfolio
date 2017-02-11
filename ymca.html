@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YMCA</title>
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+<!-- Everything here is for Sidebar navigation menu! -->
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="ymca.html">YMCA Playdeck</a>
+    <!--<a href="southkorea.html">South Korea Projects</a>-->
+    <!--<a href="#">Other</a>-->
+</div>
+
+<div id="main">
+    <div id="myName">M. Dylan Negri</div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Search</span>
+</div>
+
+<div id="galleryTitle"> I played a large role in fabrication and installation of this playdeck for kids
+    at the YMCA on 14th Street in Manhattan. I was on a team of 4 with Material Process Systems Inc.</div>
+
+<!-- /////////////////////////////////////////////// -->
+
+<!-- Everything here is for a mono box when clicking on an image-->
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="images">
+    <!--<div id="caption"></div>-->
+</div>
+
+<div class="clear"></div>
+
+<!-- ////////////////////////////////////////////////////////// -->
+<section>
+    <img id="myImg" class="items" src="images/contracting/playdeck/pd01.jpg" onclick="clicking(0)">
+    <img id="myImg" class="items" src="images/contracting/playdeck/pd02.jpg" onclick="clicking(1)">
+    <img id="myImg" class="items" src="images/contracting/playdeck/pd03.jpg" onclick="clicking(2)">
+    <img id="myImg" class="items" src="images/contracting/playdeck/pd04.jpg" onclick="clicking(3)">
+    <img id="myImg" class="items" src="images/contracting/playdeck/pd05.jpg" onclick="clicking(4)">
+    <!--<img id="myImg" class="items" src="images/contracting/playdeck/pd01.jpg" onclick="clicking(0)">-->
+
+
+</section>
+
+<div class="clear"></div>
+
+<footer></footer>
+
+<script src="./js/sidebar.js"></script>
+
+</body>
+</html>

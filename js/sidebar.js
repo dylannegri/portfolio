@@ -28,8 +28,8 @@ span.onclick = function() {
 
 function openNav() {
     // console.log(document.getElementsByClassName("items")[0].style);
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+    document.getElementById("mySidenav").style.width = "350px";
+    document.getElementById("main").style.marginLeft = "350px";
     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
     for(var i = 0; i<document.getElementsByClassName("items").length;i++){
         document.getElementsByClassName("items")[i].style.opacity = "0.4";
