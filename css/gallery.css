@@ -22,11 +22,11 @@ body, a{
 }
 
 #galleryTitle{
-	text-align: center;
+	/*text-align: left;*/
 	font-size: 18px;
 	margin-top: 50px;
-	margin-left: 5%;
-	max-width: 90%;
+	margin-left: 20%;
+	max-width: 60%;
 
 }
 
