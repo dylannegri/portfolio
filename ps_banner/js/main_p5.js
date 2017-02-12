@@ -1,11 +1,11 @@
 var asteroids = [];
 
 function windowResized(){
-  resizeCanvas(windowWidth, 250);
+  resizeCanvas(windowWidth, 225);
 }
 
 function setup(){
-	canvas = createCanvas(windowWidth, 250);
+	canvas = createCanvas(windowWidth, 225);
 	canvas.position (0, 0);
   	canvas.style('z-index', '-1');
 
