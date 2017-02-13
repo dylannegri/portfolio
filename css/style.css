@@ -78,6 +78,7 @@ footer{
 .skills{
 	margin-top: 5px;
 	transition: width 1s ease 1s;
+	color: rgb(120,240,120);
 }
 
 #skill01{height: 12px; width: 0%; background: rgb(255,0,0);}
