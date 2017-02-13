@@ -80,15 +80,15 @@ footer{
 	transition: width 1s ease 1s;
 }
 
-#skill01{height: 12px; width: 55%; background: rgb(255,0,0);}
-#skill02{height: 12px; width: 63%; background: rgb(255,15,0);}
-#skill03{height: 12px; width: 60%; background: rgb(255,30,0);}
-#skill04{height: 12px; width: 90%; background: rgb(255,45,0);}
-#skill05{height: 12px; width: 70%; background: rgb(255,60,0);}
-#skill06{height: 12px; width: 65%; background: rgb(255,75,0);}
-#skill07{height: 12px; width: 85%; background: rgb(255,90,0);}
-#skill08{height: 12px; width: 55%; background: rgb(255,105,0);}
-#skill09{height: 12px; width: 100%; background: rgb(255,120,0);}
+#skill01{height: 12px; width: 0%; background: rgb(255,0,0);}
+#skill02{height: 12px; width: 0%; background: rgb(255,15,0);}
+#skill03{height: 12px; width: 0%; background: rgb(255,30,0);}
+#skill04{height: 12px; width: 0%; background: rgb(255,45,0);}
+#skill05{height: 12px; width: 0%; background: rgb(255,60,0);}
+#skill06{height: 12px; width: 0%; background: rgb(255,75,0);}
+#skill07{height: 12px; width: 0%; background: rgb(255,90,0);}
+#skill08{height: 12px; width: 0%; background: rgb(255,105,0);}
+#skill09{height: 12px; width: 0%; background: rgb(255,120,0);}
 
 /* GRID */
 section #work {
