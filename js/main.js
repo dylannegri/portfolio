@@ -17,6 +17,7 @@ app.main = (function() {
 	$(".navs").mouseleave(function(){
 		$(this).css({'color': 'white'},50);
 	});
+	$("footer").append("<p>Copyright &#169; 2017 | Developed by M. Dylan Negri");
 
 	$(document).ready(function () {
 		// console.log("ready!");
