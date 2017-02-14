@@ -27,10 +27,13 @@ span.onclick = function() {
 
 
 function openNav() {
+    console.log("open!");
     // console.log(document.getElementsByClassName("items")[0].style);
     document.getElementById("mySidenav").style.width = "350px";
     document.getElementById("main").style.marginLeft = "350px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    document.getElementById("dimmer").style.background = "rgba(0,0,0,0.9)";
+    document.getElementById("dimmer").style.zIndex = "3";
+    // document.body.style.background = "rgba(0,0,0,0.4)";
     for(var i = 0; i<document.getElementsByClassName("items").length;i++){
         document.getElementsByClassName("items")[i].style.opacity = "0.4";
     }
@@ -40,7 +43,9 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
-    document.body.style.backgroundColor = "rgb(22,22,22)";
+    document.getElementById("dimmer").style.background = "rgba(0,0,0,0)";
+    document.getElementById("dimmer").style.zIndex = "-10";
+    // document.body.style.background = "rgb(22,22,22)";
     for(var i = 0; i<document.getElementsByClassName("items").length;i++){
         document.getElementsByClassName("items")[i].style.opacity = "1";
     }//loop through images
