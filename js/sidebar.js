@@ -14,6 +14,7 @@ var captionText = document.getElementById("caption");
 function clicking(count){
     modal.style.display = "block";
     modalImg.src = document.getElementsByClassName("items")[count].src;
+    document.getElementById("images").style.imageOrientation="from-image";
     captionText.innerHTML = this.alt;
 }
 
