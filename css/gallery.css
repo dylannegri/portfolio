@@ -11,6 +11,15 @@ body {
 body, a{
 	margin: 0;
 	color: white;
+	text-decoration: none;
+}
+
+a {
+	color: rgb(255,100,100);
+}
+
+a:hover {
+	color: rgb(255,150,150);
 }
 .clear {
 	clear: both;
@@ -23,7 +32,7 @@ body, a{
 
 #galleryTitle{
 	/*text-align: left;*/
-	font-size: 18px;
+	font-size: 11px;
 	margin-top: 50px;
 	margin-left: 20%;
 	max-width: 60%;
@@ -40,9 +49,18 @@ body, a{
 
 }
 
-/*#video{*/
-	/*margin-left: ;*/
-/*}*/
+#banner{
+	width: 80vw;
+	max-height: 60vh;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-bottom: 1px;
+}
+
+#bannerIMG{
+	width: 100%;
+}
 
 /* CONTAINER */
 section {
@@ -71,7 +89,6 @@ section .items {
 	margin-left: 2%;
 	margin-bottom: 1%;
 	width: 90vw;
-	/*height: 100vw;*/
 	float: left;
 	text-align: center;
 	transition: all 0.3s ease-in-out;
@@ -95,20 +112,24 @@ footer{
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 500px) and (min-device-width: 500px) {
-/*	body{
-		background-color: blue;
-	}*/
+	body{
+		/*background-color: blue;*/
+	}
 	section .items {
 		width: calc(90vw / 2);
 		/*height: calc(90vw / 2);*/
+	}
+	#galleryTitle{
+		width: calc(98vw / 2);
+		font-size: 18px;
 	}
 }
 
 /* tablet */
 @media screen and (min-width: 780px) and (min-device-width: 500px){
-/*	body{
-		background-color: orange;
-	}*/
+	body{
+		/*background-color: orange;*/
+	}
 	section .items {
 		width: calc(90vw / 2);
 		/*height: calc(90vw / 3);*/
@@ -121,6 +142,10 @@ footer{
 	}
 	header #mobile {
 		display: none;
+	}
+	#galleryTitle{
+		width: calc(98vw / 2);
+		font-size: 18px;
 	}
 }
 
@@ -143,6 +168,9 @@ footer{
 		color: black;
 		font-size: 2.5em;
 	}*/
+	#galleryTitle{
+		width: calc(110vw / 2);
+	}
 }
 
 /* seems to be a difference between Android and iOS, device-width and device-height changes with orientation*/
@@ -150,6 +178,9 @@ footer{
 /*	body{
 		background-color: limegreen;
 	}*/
+	#galleryTitle{
+		width: calc(110vw / 2);
+	}
 	section .items {
 		width: calc(90vw / 2);
 		/*height: calc(90vw / 2);*/

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>magnetic</title>
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+<div id="dimmer">
+    <!--This is to fade the background when nav menu opens-->
+</div>
+
+<!-- Everything here is for Sidebar navigation menu! -->
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="mag.html">Magnetic</a>
+    <a href="urbanLegend.html">Urban Legend</a>
+    <a href="calculator.html">Animalculator</a>
+    <!--<a href="#">Other</a>-->
+</div>
+
+<div id="main">
+    <div id="myName">M. Dylan Negri</div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<!-- /////////////////////////////////////////////// -->
+
+<!-- Everything here is for a mono box when clicking on an image-->
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="images">
+    <!--<div id="caption"></div>-->
+</div>
+
+<!--/////////////Begin Site Here/////////////////////////-->
+<div id="banner"><img id="bannerIMG" src="images/DT/magnetic/banner.jpg"></div>
+
+<div class="clear"></div>
+<div id="galleryTitle">
+    <h2>Concept:</h2>
+    <ul><p>Create a fun, interactive, and tactile activity for all ages.</p></ul>
+
+    <h2>Description:</h2>
+    <ul>
+        <h4>Project title:<cool style="color: rgb(150,150,255)"> Magnetic</cool></h4>
+        <p><cool style="font-weight: bold; color: rgb(150,150,255);">Magnetic</cool> combines magnets, ferrofluid, and LEDs to create a playful, hands on activity. </p>
+        <p>The project is a tabletop device. It is a clear box with three tiers. On the bottom is a colorful arrangement of wires, an arduino, and LEDs. In the middle tier contains the black, magnetic ferrofluid. Suspended inside the ferrofluid is a magnet, which allows the ferrofluid to form a spherical shape. On the top tier is a wooden structure with a belt, gears, and a suspended magnet.</p>
+        <p>Its gears welcomes the user to touch and move them, moving the suspended magnet. Upon doing so, the user realizes they can move the ferrofluid inside. Moving the ferrofluid inside the box draws patterns on the walls of the transparent container. Additionally, they can use the ferrofluid to change the state of the LEDs. The user is left to play with the box as he/she sees fit. The interaction is magnetic!</p>
+    </ul>
+
+    <h2>Precedence:</h2>
+    <ul>
+        <p><a href="https://www.youtube.com/watch?v=sFOv6_L5C-k">Ferrofluid in a Bottle by Vat19</a> &mdash; A commercial product sold by online retailer Vat19 with a humorous promotional video.</p>
+        <p><a href="https://www.youtube.com/watch?v=dXuWGthXKL8">SnOil by Martin Frey</a> &mdash; A physical 3D display using ferrofluid and 144 electromagnets to recreate the popular phone game, Snake.</p>
+        <p><a href="https://www.youtube.com/watch?v=CjzSeOg8oTs">Air hockey</a> &mdash; A game that uses air to reduce the friction on a plastic puck, therefore altering its movement and making the game more playful and unexpected.</p>
+    </ul>
+
+    <h2>Prototyping:</h2>
+    <h4>The Slime</h4>
+    <ul>
+        <p>We initially planned to work with magnetic slime. However our early prototyping revealed that the magnetic slime did not move as fluidly as we wanted and rusted after only 24 hours.</p>
+    </ul>
+    <h4>Failed Attempts:</h4>
+    <ul>
+        <p>To make slime, you need a chemical reaction to take place between polyvinyl alcohol (PVA) and a borate ion. Most water-based glue contained PVA. However, something containing a borate ion proved more difficult to find. Both Borax and boric acid produce the borate ion when added to water. But it is difficult in France to obtain Borax. Our first attempt to make slime used an aerosol liquid starch. While a chemical reaction did start to occur, we were not able to get enough starch out of the can to match our glue and water ratio. Our second attempt used Monoprix brand laundry detergent. This was a complete failure as the detergent did not contain Borax. We also made attempts with other types of household soaps, like dish detergent. None of which contained Borax. This <a href="http://www.funathomewithkids.com/2014/07/make-slime-with-laundry-detergent.html"> blog post</a> was very helpful in understand the chemistry behind slime.</p>
+    </ul>
+</div>
+
+<!-- ////////////////////////////////////////////////////////// -->
+<section>
+    <img id="myImg" class="items" src="images/DT/magnetic/make01.jpg" onclick="clicking(0)">
+    <img id="myImg" class="items" src="images/DT/magnetic/make03.gif" onclick="clicking(1)">
+    <img id="myImg" class="items" src="images/DT/magnetic/make02.jpg" onclick="clicking(2)">
+    <img id="myImg" class="items" src="images/DT/magnetic/make04.gif" onclick="clicking(3)">
+</section>
+
+<div class="clear"></div>
+<div id="galleryTitle">
+    <h2>Successful Attempt:</h2>
+    <ul>
+        <p>After purchasing laundry detergent by the brand Mir, we finally were able to achieve the chemical reaction we were after! The Borax in our laundry detergent reacted with the PVA in our glue and after some kneading, we had slime!</p>
+        <p>We worked in iron powder to the slime to make it magnetic. We placed the magnetic slime in a ball to keep the magnets from pulling the powder from the slime. The next day, we discovered that the water required to produce the borate ion, also rusted the power.</p>
+    </ul>
+</div>
+
+<section>
+    <img id="myImg" class="items" src="images/DT/magnetic/test01.JPG" onclick="clicking(4)">
+    <img id="myImg" class="items" src="images/DT/magnetic/test02.JPG" onclick="clicking(5)">
+    <img id="myImg" class="items" src="images/DT/magnetic/test04.JPG" onclick="clicking(6)">
+    <img id="myImg" class="items" src="images/DT/magnetic/test03.gif" onclick="clicking(7)">
+</section>
+
+<div class="clear"></div>
+<div id="galleryTitle">
+    <h2>Iron in a Bottle</h2>
+    <ul>
+        <p>For our next prototype, we put iron in a bottle of liquid. Our first iteration rusted within 30 minutes. We next tried the powdered iron in a bottle of acetone. The acetone minimized the rusting, though some still did occur. We also experimented putting the iron powder in a bottle of sunflower oil. While the oil was not very transparent, the addition of food coloring suspended in the oil created an interesting effect.</p>
+        <p>While the iron in a bottle produced interesting shapes, we wanted a substance that would still retain some shape when the user was not engaging. Thus we landed on the idea to use ferrofluid with a magnet inside.</p>
+    </ul>
+</div>
+
+<section>
+    <img id="myImg" class="items" src="images/DT/magnetic/magtest04.jpg" onclick="clicking(8)">
+    <img id="myImg" class="items" src="images/DT/magnetic/magtest03.gif" onclick="clicking(9)">
+    <img id="myImg" class="items" src="images/DT/magnetic/magtest05.JPG" onclick="clicking(10)">
+</section>
+
+<div class="clear"></div>
+<div id="galleryTitle">
+    <h2>The Container</h2>
+    <ul>
+        <p>The container was designed to be tiered to ensure the electronics, magnets, and fluid was separated. Early sketches had just two sections. However, was changed the three based on materials we were able to source.</p>
+    </ul>
+</div>
+<section>
+    <img id="myImg" class="items" src="images/DT/magnetic/sketch01.jpg" onclick="clicking(11)">
+    <img id="myImg" class="items" src="images/DT/magnetic/mats01.jpg" onclick="clicking(12)">
+</section>
+
+<div class="clear"></div>
+<div id="galleryTitle">
+    <h2>The Gears</h2>
+    <ul>
+        <p>Our first prototype was modeled after an xy plotter.</p>
+    </ul>
+</div>
+<section>
+    <img id="myImg" class="items" src="images/DT/magnetic/proto01.jpg" onclick="clicking(13)">
+    <img id="myImg" class="items" src="images/DT/magnetic/proto02.jpg" onclick="clicking(14)">
+</section>
+<div class="clear"></div>
+<div id="galleryTitle">
+    <ul>
+        <p>Our second prototype embraced the steampunk genre and used gears.</p>
+    </ul>
+</div>
+<section>
+    <img id="myImg" class="items" src="images/DT/magnetic/gears01.gif" onclick="clicking(15)">
+    <img id="myImg" class="items" src="images/DT/magnetic/gears02.gif" onclick="clicking(16)">
+</section>
+<div class="clear"></div>
+<div id="galleryTitle">
+    <ul>
+        <p>However, we opted for a much more simple version with one belt to enable the user to focus more on the magnets and less on the gears.</p>
+    </ul>
+    <h2>Sketches:</h2>
+</div>
+<section>
+    <img id="myImg" class="items" src="images/DT/magnetic/sketch02.jpg" onclick="clicking(17)">
+    <img id="myImg" class="items" src="images/DT/magnetic/skethc03.jpg" onclick="clicking(18)">
+</section>
+<div class="clear"></div>
+<div id="galleryTitle">
+    <h2>Fabrication and Process:</h2>
+</div>
+<section>
+    <img id="myImg" class="items" src="images/DT/magnetic/printer.jpg" onclick="clicking(19)">
+    <img id="myImg" class="items" src="images/DT/magnetic/process01.jpg" onclick="clicking(20)">
+    <img id="myImg" class="items" src="images/DT/magnetic/process02.jpg" onclick="clicking(21)">
+    <img id="myImg" class="items" src="images/DT/magnetic/process03.gif" onclick="clicking(22)">
+    <img id="myImg" class="items" src="images/DT/magnetic/process04.gif" onclick="clicking(23)">
+</section>
+
+<div class="clear"></div>
+<div id="galleryTitle">
+    <h2>Final Product:</h2>
+</div>
+<section>
+    <img id="myImg" class="items" src="images/DT/magnetic/final01.jpg" onclick="clicking(25)">
+    <img id="myImg" class="items" src="images/DT/magnetic/final02.jpg" onclick="clicking(26)">
+    <img id="myImg" class="items" src="images/DT/magnetic/final03.jpg" onclick="clicking(27)">
+    <img id="myImg" class="items" src="images/DT/magnetic/using02.gif" onclick="clicking(28)">
+    <img id="myImg" class="items" src="images/DT/magnetic/using03.gif" onclick="clicking(29)">
+</section>
+
+
+
+<div class="clear"></div>
+
+<footer></footer>
+
+<script src="./js/sidebar.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>i84</title>
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+<div id="dimmer">
+    <!--This is to fade the background when nav menu opens-->
+</div>
+
+<!-- Everything here is for Sidebar navigation menu! -->
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="install.html">Long Island Children's Museum</a>
+    <a href="southkorea.html">South Korea Projects</a>
+    <a href="i84.html">i84 graffiti yard</a>
+</div>
+
+<div id="main">
+    <div id="myName">M. Dylan Negri</div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<div id="galleryTitle"> The i84 graffiti yard.</div>
+
+<!-- /////////////////////////////////////////////// -->
+
+<!-- Everything here is for a mono box when clicking on an image-->
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="images">
+    <!--<div id="caption"></div>-->
+</div>
+
+<div class="clear"></div>
+
+<!-- ////////////////////////////////////////////////////////// -->
+<section>
+    <img id="myImg" class="items" src="images/outside/presence/p02.jpg" onclick="clicking(0)">
+    <img id="myImg" class="items" src="images/outside/presence/p01.jpg" onclick="clicking(1)">
+    <img id="myImg" class="items" src="images/outside/presence/p03.jpg" onclick="clicking(2)">
+    <img id="myImg" class="items" src="images/outside/presence/p04.jpg" onclick="clicking(3)">
+</section>
+
+<div class="clear"></div>
+<div id="galleryTitle"> The i84 graffiti yard.</div>
+
+<section>
+    <img id="myImg" class="items" src="images/outside/home/door01.jpg" onclick="clicking(4)">
+    <img id="myImg" class="items" src="images/outside/home/door02.jpg" onclick="clicking(5)">
+    <img id="myImg" class="items" src="images/outside/home/door03.jpg" onclick="clicking(6)">
+    <img id="myImg" class="items" src="images/outside/home/door04.jpg" onclick="clicking(7)">
+</section>
+
+<div class="clear"></div>
+<div id="galleryTitle"> The i84 graffiti yard.</div>
+
+<section>
+    <img id="myImg" class="items" src="images/outside/dwelling/d01.jpg" onclick="clicking(8)">
+    <img id="myImg" class="items" src="images/outside/dwelling/d02.jpg" onclick="clicking(9)">
+    <img id="myImg" class="items" src="images/outside/dwelling/d03.jpg" onclick="clicking(10)">
+    <img id="myImg" class="items" src="images/outside/dwelling/d04.jpg" onclick="clicking(11)">
+</section>
+
+<div class="clear"></div>
+
+<footer></footer>
+
+<script src="./js/sidebar.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
