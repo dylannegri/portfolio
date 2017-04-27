@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ba1cc48-fa3d-4d0d-be6c-9892e1ef058e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mag.html" afterPath="$PROJECT_DIR$/mag.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,9 +63,9 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="693">
-              <caret line="36" column="373" lean-forward="false" selection-start-line="36" selection-start-column="373" selection-end-line="36" selection-end-column="373" />
+              <caret line="36" column="372" lean-forward="false" selection-start-line="36" selection-start-column="372" selection-end-line="36" selection-end-column="372" />
               <folding>
-                <marker date="1493311474742" expanded="false" signature="3510:3555" ph="..." />
+                <marker date="1493311543653" expanded="false" signature="3510:3555" ph="..." />
               </folding>
             </state>
           </provider>
@@ -369,12 +367,12 @@
       <workItem from="1488118645180" duration="3034000" />
       <workItem from="1490964205529" duration="14790000" />
       <workItem from="1492372421406" duration="2479000" />
-      <workItem from="1493310644328" duration="840000" />
+      <workItem from="1493310644328" duration="901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66186000" />
+    <option name="totallyTimeSpent" value="66247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -772,9 +770,9 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
-          <caret line="36" column="373" lean-forward="false" selection-start-line="36" selection-start-column="373" selection-end-line="36" selection-end-column="373" />
+          <caret line="36" column="372" lean-forward="false" selection-start-line="36" selection-start-column="372" selection-end-line="36" selection-end-column="372" />
           <folding>
-            <marker date="1493311474742" expanded="false" signature="3510:3555" ph="..." />
+            <marker date="1493311543653" expanded="false" signature="3510:3555" ph="..." />
           </folding>
         </state>
       </provider>
